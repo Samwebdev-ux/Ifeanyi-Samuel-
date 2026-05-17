@@ -12,23 +12,3 @@ border:4px solid gold;
 <button class="glow-btn">
   Hire Me 🚀
 </button>
-.glow-btn{
-
-  background:gold;
-  color:black;
-  padding:15px 30px;
-  border:none;
-  border-radius:30px;
-  font-size:18px;
-  cursor:pointer;
-  transition:0.5s;
-  margin-top:20px;
-
-}
-
-.glow-btn:hover{
-
-  box-shadow:0 0 25px gold;
-  transform:scale(1.1);
-
-}

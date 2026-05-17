@@ -31,13 +31,8 @@ body{
   box-shadow:0 0 25px gold;
   transform:scale(1.1);
 
-}
 
-</style>
 
-</head>
-
-<body>
 
 <img
 src="IMG-20260430-WA0001.jpg"

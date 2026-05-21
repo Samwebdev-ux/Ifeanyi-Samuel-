@@ -7,7 +7,27 @@
 <title>Ifeanyi Portfolio</title>
 
 <style>
-.navbar a{
+
+  @keyframes fadeIn{
+
+  from{
+    opacity:0;
+    transform:translateY(30px);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+}
+
+.container{
+
+  animation:fadeIn 2s ease;
+
+}
+  .navbar a{
 
   color:gold;
   text-decoration:none;
@@ -87,7 +107,10 @@ height="150">
 <button class="glow-btn">
   Hire Me 🚀
 </button>
+<div class="container">
 
+</div>
+  
 </body>
 
 </html>

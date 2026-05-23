@@ -7,7 +7,87 @@
 <title>Ifeanyi Portfolio</title>
 
 <style>
+/* FLOATING IMAGE */
+
 img{
+  animation:float 3s ease-in-out infinite;
+}
+
+@keyframes float{
+
+  0%{
+    transform:translateY(0);
+  }
+
+  50%{
+    transform:translateY(-10px);
+  }
+
+  100%{
+    transform:translateY(0);
+  }
+
+}
+
+/* PAGE FADE IN */
+
+.container{
+  animation:fadeIn 2s ease;
+}
+
+@keyframes fadeIn{
+
+  from{
+    opacity:0;
+    transform:translateY(30px);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0);
+  }
+
+}
+
+/* GLOWING NAME */
+
+h1{
+
+  color:white;
+  animation:glow 2s infinite alternate;
+
+}
+
+@keyframes glow{
+
+  from{
+    text-shadow:0 0 10px gold;
+  }
+
+  to{
+    text-shadow:0 0 25px gold;
+  }
+
+}
+
+/* BUTTON ANIMATION */
+
+.glow-btn:hover{
+
+  box-shadow:0 0 25px gold;
+  transform:scale(1.1) rotate(2deg);
+
+}
+
+/* NAVBAR HOVER */
+
+.navbar a:hover{
+
+  color:white;
+  text-shadow:0 0 10px gold;
+
+}
+  img{
   animation:float 3s ease-in-out infinite;
 }
 
@@ -81,7 +161,9 @@ img{
 </head>
 
 <body>
+<body>
 
+<div class="container">
 <div class="navbar">
 
 <a href="">Home</a>
